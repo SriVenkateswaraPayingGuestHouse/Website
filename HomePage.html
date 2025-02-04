@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Venkateswara Paying Guest House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head> -->
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Venkateswara Paying Guest House</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        /* Navbar Logo Styling */
+        .logo-img {
+            height: 40px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            height: 100vh;
+            background: url('your-image.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Ensure Navbar Stays Compact on Small Screens */
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1rem;
+            }
+            .logo-img {
+                height: 35px;
+                width: 35px;
+            }
+            .navbar-nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sri Venkateswara Homes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     -->
+
+     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" data-aos="fade-down"> -->
+          <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" data-aos="fade-down">
+        <div class="container">
+             
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="FinalLogo.png" alt="Sri Venkateswara Homes Logo" class="logo-img">
+                <span class="ms-2">Sri Venkateswara Homes</span>
+            </a>
+             
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    
+
+     
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Sri Venkateswara Paying Guest House</h1>
+            <p>Experience comfort & elegance like never before</p>
+            <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+        </div>
+    </section>
+
+    <section id="rooms" class="container my-5">
+        <h2 class="text-center" data-aos="fade-up">Our Rooms</h2>
+         
+
+
+             <div class="row justify-content-center">
+
+                
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card border-0 shadow-lg position-relative overflow-hidden fancy-card" onclick="showModal('Solo Haven', 'A private retreat for ultimate relaxation and comfort', '1bed.jpeg')">
+                        <!-- Offer Badge -->
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2">Limited Offer</span>
+                        
+                        <!-- Image Section -->
+                        <div class="image-container">
+                            <img src="1bed.jpeg" class="card-img-top rounded-top" alt="Luxury Suite">
+                        </div>
+            
+                        <!-- Card Body -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-primary">Solo Haven</h5>
+                            <p class="card-text text-muted">A cozy and private retreat designed for solo travelers seeking comfort and tranquility. Enjoy a peaceful stay with top-tier amenities and personalized service.</p>
+                            
+                            <!-- Price Section -->
+                            <div class="price-section mt-3 p-3 rounded d-inline-block">
+                                <h6 class="fw-bold price-text">
+                                    <i class="fas fa-tags"></i> Starting from ₹2500
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fas fa-handshake"></i> <small>Negotiable for longer stays!</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card border-0 shadow-lg position-relative overflow-hidden fancy-card" onclick="showModal('Twin Comfort', 'Perfect for two, blending space and convenience with ease', '2bed.jpeg')">
+                        <!-- Offer Badge -->
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2">Limited Offer</span>
+                
+                        <!-- Image Section -->
+                        <div class="image-container">
+                            <img src="2bed.jpeg" class="card-img-top rounded-top" alt="Deluxe Room">
+                        </div>
+                
+                        <!-- Card Body -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-primary">Twin Comfort</h5>
+                            <p class="card-text text-muted">A perfect blend of space and convenience for two. Whether you're traveling with a friend or colleague, enjoy a stylish and well-equipped room designed for comfort and relaxation.</p>
+                
+                            <!-- Price Section -->
+                            <div class="price-section mt-3 p-3 rounded d-inline-block">
+                                <h6 class="fw-bold price-text">
+                                    <i class="fas fa-tags"></i> Starting from ₹3000
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fas fa-handshake"></i> <small>Negotiable for longer stays!</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card border-0 shadow-lg position-relative overflow-hidden fancy-card" onclick="showModal('Trio Nest', 'Spacious, cozy, and ideal for small groups or families', '3bed.jpeg')">
+                        <!-- Offer Badge -->
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2">Limited Offer</span>
+                
+                        <!-- Image Section -->
+                        <div class="image-container">
+                            <img src="3bed.jpeg" class="card-img-top rounded-top" alt="Standard Room">
+                        </div>
+                
+                        <!-- Card Body -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-primary">Trio Nest</h5>
+                            <p class="card-text text-muted">Spacious and elegantly designed for a comfortable group stay. Ideal for families or small groups, offering a warm ambiance with modern facilities to enhance your experience.</p>
+                
+                            <!-- Price Section -->
+                            <div class="price-section mt-3 p-3 rounded d-inline-block">
+                                <h6 class="fw-bold price-text">
+                                    <i class="fas fa-tags"></i> ₹3500
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fas fa-handshake"></i> <small>Negotiable for longer stays!</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+
+            <div class="row justify-content-center">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card border-0 shadow-lg position-relative overflow-hidden fancy-card" onclick="showModal('Group Nest', 'A vibrant and budget-friendly stay for group travelers', '6bed.jpg')">
+                        <!-- Offer Badge -->
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2">Limited Offer</span>
+                
+                        <!-- Image Section -->
+                        <div class="image-container">
+                            <img src="6bed.jpg" class="card-img-top rounded-top" alt="Standard Room">
+                        </div>
+                
+                        <!-- Card Body -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-primary">Group Nest</h5>
+                            <p class="card-text text-muted">A vibrant and budget-friendly space designed for group travelers. Experience a social yet comfortable stay with all essential amenities and a welcoming atmosphere.</p>
+                
+                            <!-- Price Section -->
+                            <div class="price-section mt-3 p-3 rounded d-inline-block">
+                                <h6 class="fw-bold price-text">
+                                    <i class="fas fa-tags"></i> ₹4000
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fas fa-handshake"></i> <small>Negotiable for group bookings!</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Custom CSS -->
+            <style>
+                .fancy-card {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    border-radius: 15px;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(10px);
+                }
+            
+                .fancy-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                }
+            
+                /* Improved Price Section */
+                .price-section {
+                    background: linear-gradient(135deg, #f8b400, #f39c12);
+                    color: black;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    display: inline-block;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                }
+            
+                .price-text {
+                    color: #222;
+                    font-size: 1.2rem;
+                }
+            
+                .image-container {
+                    overflow: hidden;
+                    border-radius: 15px 15px 0 0;
+                }
+            
+                .image-container img {
+                    transition: transform 0.4s ease;
+                }
+            
+                .image-container:hover img {
+                    transform: scale(1.1);
+                }
+            </style>
+            
+            <!-- FontAwesome for Icons -->
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+            
+            
+            <!-- Custom CSS -->
+            <style>
+                .fancy-card {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    border-radius: 15px;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(10px);
+                }
+            
+                .fancy-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                }
+            
+                .price-section {
+                    background: linear-gradient(135deg, #ffdd00, #ffcc33);
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                }
+            
+                .text-gold {
+                    color: #d4af37;
+                }
+            
+                .image-container {
+                    overflow: hidden;
+                    border-radius: 15px 15px 0 0;
+                }
+            
+                .image-container img {
+                    transition: transform 0.4s ease;
+                }
+            
+                .image-container:hover img {
+                    transform: scale(1.1);
+                }
+            </style>
+            
+            <!-- FontAwesome for Icons -->
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+            
+
+
+
+            
+    
+  
+
+      
+  
+    </section>
+
+    <div id="roomModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid mb-3">
+                    <p id="modalDescription"></p>
+                    <h6>Amenities:</h6>
+                    <ul>
+                    
+                            <!-- <li>Complimentary Lunch </li>
+                            <li>Complimentary Dinner</li>
+                            <li>Air Conditioning</li>
+                            <li>Free WIFI</li>
+                            <li>Room Service</li>
+                            <li>Tour Desk</li>
+                            <li>Private Bathroom</li>
+                            <li>View</li> -->
+
+                            <li><i class="fas fa-utensils"></i> Complimentary Lunch</li>
+                            <li><i class="fas fa-utensils"></i> Complimentary Dinner</li>
+                            <li><i class="fas fa-snowflake"></i> Air Conditioning</li>
+                            <li><i class="fas fa-wifi"></i> Free WIFI</li>
+                            <li><i class="fas fa-concierge-bell"></i> Room Service</li>
+                            <li><i class="fas fa-map-marked-alt"></i> Tour Desk</li>
+                            <li><i class="fas fa-bath"></i> Private Bathroom</li>
+                            <li><i class="fas fa-umbrella-beach"></i> Riverside View</li>
+                            <li><i class="fas fa-shower"></i> Hot Water</li> 
+                            <li><i class="fas fa-bolt"></i> Power Backup</li>
+
+
+
+
+
+
+
+  
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+
+    <section id="about" class="bg-light py-5 text-center" data-aos="fade-left">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Sri Venkateswara Paying Guest House, we provide a perfect blend of comfort, quality, and value. Our well-maintained rooms are designed for relaxation, while our dedicated team ensures exceptional hospitality throughout your stay. Enjoy modern amenities and personalized service, all at an affordable price.Whether you're here for a short stay or an extended visit, we offer everything you need for a delightful experience, making us the ideal choice for travelers seeking both comfort and convenience.</p>
+        </div>
+    </section>
+
+
+ 
+
+ 
+  
+
+
+    <section id="contact" class="container my-5 text-center" data-aos="fade-right">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for bookings or inquiries.</p>
+        <div>
+            <!-- Social Media Links --> 
+            <a href="https://www.instagram.com/srivenkatesawarahomes221?igsh=MXMydm91d2N6YzEycg==" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+             
+            <a href="tel:+916301256402" class="me-3"><i class="fas fa-phone fa-2x"></i></a>  <!-- Phone Call -->
+            <a href="https://wa.me/916301256402" class="me-3"><i class="fab fa-whatsapp fa-2x"></i></a>  <!-- WhatsApp Chat -->
+            <a href="mailto:Srivenkatesawara0422@gmail.com" class="me-3"><i class="fas fa-envelope fa-2x"></i></a>  <!-- Email -->
+            <a href="https://maps.app.goo.gl/FPSm3W4sbXrRftNs6" class="me-3" target="_blank">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+            </a> 
+            
+
+        </div>
+    </section>
+    
+    
+    
+    <footer class="bg-dark text-white text-center py-3" data-aos="fade-up">
+        <p>&copy; 2025 Sri Venkateswara Paying Guest House. All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        AOS.init();
+        function showModal(title, description, imgSrc) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalDescription').innerText = description;
+            document.getElementById('modalImage').src = imgSrc;
+            var modal = new bootstrap.Modal(document.getElementById('roomModal'));
+            modal.show();
+        }
+    </script>
+    
+    <style>
+             .hero {
+    background: url('FinalLogo.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 2s ease-in;
+}
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</body>
+</html>
